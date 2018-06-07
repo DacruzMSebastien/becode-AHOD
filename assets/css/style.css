@@ -16,9 +16,11 @@
     
 }
 
+
+
 .menu a{
     display: inline;
-    margin-right: 20px;
+   
     text-align: center;
     padding: 15px;
     float: right;
@@ -35,7 +37,7 @@ a:hover{
 
     color:#b5a6ae;
     background-color: whitesmoke;
-    clip-path: circle(65%);
+    
 }
 
 
