@@ -1,29 +1,18 @@
-aside, article {
-    display: inline-flex;
- }
-
- 
- /* SIDEBAR */
-
- aside {
-    width: 40vh;
-    height: 50vh;
-    border: 0.2vh solid black;
+.banner{
+    background: #b5a6ae;
+    height: 185px;
 }
 
-aside h2 {
-    font-style: 5vh;
+.menu a{
+    display: inline;
+    margin-right: 25px;
+    text-align: center;
+    padding: 15px;
+    float: right;
+    margin-top: 145px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: white;
 }
-aside li {
-    list-style: none;
-    font-size: 2vh;
-}
-
-/* ARTICLE */
-
-article { 
-    width: 70vh;
-    padding: 5vh;
-    font-size: 2vh;
-    border: 0.2vh solid black;
+.logo{
+    float: left;
 }
