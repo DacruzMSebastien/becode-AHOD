@@ -1,0 +1,19 @@
+.footer {
+  display: block;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+  background-color: green;
+}
+
+
+.nom-asbl {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.img {
+  text-align: center;
+}
