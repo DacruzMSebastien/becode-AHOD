@@ -5,13 +5,14 @@
     margin-bottom: 5vh;
     background: #b5a6ae;
     height: 185px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .menu a{
     
     display: inline;
     margin-right: 20px;
-    text-align: center;
     padding: 15px;
     float: right;
     margin-top: 145px;
@@ -25,7 +26,8 @@ a:hover{
 
   color:#b5a6ae;
   background-color: whitesmoke;
-  clip-path: circle(65%);
+  clip-path: circle(85%);
+  border: 0.1vh solid grey;
 }
 
 .logo{
@@ -41,7 +43,9 @@ h2 {
   aside {
     width: 50vh;
     height: 80vh;
-    border: 0.2vh solid #b5a6ae;
+    box-sizing: border-box;
+    box-shadow: 1vh 1vh grey;
+    border: 0.1vh solid black;
     background-color: #b5a6ae;
   }
 
@@ -49,10 +53,12 @@ h2 {
     font-size: 4vh;
     margin: 2vh;
     color: white;
+    border: 0.1vh solid grey;
+    padding: 1vh;
   }
 
   aside li {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-style: italic;
     list-style: none;
     line-height: 5vh;
@@ -62,12 +68,13 @@ h2 {
   aside a {
     text-decoration: none;
     color: white;
-    padding: 1.5vh;
+    padding: 1vh;
   }
 
   aside a:hover {
     background-color: whitesmoke;
     color: #b5a6ae;
+    border: 0.1vh solid grey;
   }
 
   aside, article {
@@ -75,6 +82,10 @@ h2 {
   }
 
 /* ARTICLE */
+
+.main-content{
+  display: flex;
+}
 
 article {
   width: 80vh;
@@ -84,8 +95,13 @@ article {
 }
 
 .below-content {
-  margin: auto;
-  border: 0.2vh solid grey;
+  box-sizing: border-box;
+  box-shadow: 1vh 1vh grey;
+  border: 0.1vh solid black;
+  width: 50vh;
+  height: 70vh;
+  padding: 2vh;
+  margin-left: 10vh;
 }
 
 .below-content li {
@@ -96,13 +112,24 @@ article {
 .below-content p {
   text-align: center;
 }
+
+.below-content h2 {
+  color: white;
+  text-align: center;
+  border: 0.1vh solid grey;
+  padding: 1vh;
+}
  /* FOOTER  */
 
  .footer {
   display: block;
   height:100%;
   width: 100%;
+  margin-top: 10vh;
   background-color: #b5a6ae;
+  border: 0.1vh solid black;
+  box-sizing: border-box;
+  box-shadow: 1vh 1vh grey;
   }
 
   .nom-asbl {
