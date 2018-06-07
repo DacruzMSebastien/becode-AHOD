@@ -1,4 +1,11 @@
-aside {
+aside, article {
+    display: inline-flex;
+ }
+
+ 
+ /* SIDEBAR */
+
+ aside {
     width: 40vh;
     height: 50vh;
     border: 0.2vh solid black;
@@ -10,4 +17,13 @@ aside h2 {
 aside li {
     list-style: none;
     font-size: 2vh;
+}
+
+/* ARTICLE */
+
+article { 
+    width: 70vh;
+    padding: 5vh;
+    font-size: 2vh;
+    border: 0.2vh solid black;
 }
