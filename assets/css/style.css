@@ -5,14 +5,81 @@
 
 .menu a{
     display: inline;
-    margin-right: 25px;
+    margin-right: 20px;
     text-align: center;
     padding: 15px;
     float: right;
     margin-top: 145px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+    
 }
+
+a:hover{
+
+    color:#b5a6ae;
+    background-color: whitesmoke;
+    clip-path: circle(65%);
+}
+
+
 .logo{
     float: left;
+   
 }
+
+body{
+    background-color: white;
+}
+
+h2{
+    background-color: #d6c5ce;
+}
+
+.footer {
+    display: block;
+    height:100%;
+    width: 100%;
+    background-color: #b5a6ae;
+    }
+    
+    .nom-asbl {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    }
+    
+    .img {
+    text-align: center;
+    }
+
+    aside {
+        width: 40vh;
+        height: 50vh;
+        border: 0.2vh solid black;
+        }
+        
+        aside h2 {
+        font-style: 5vh;
+        }
+        aside li {
+        list-style: none;
+        font-size: 2vh;
+        }
+
+        article {
+        width: 70vh;
+        padding: 5vh;
+        font-size: 2vh;
+        border: 0.2vh solid black;
+        }
+            
+           
+            
+        aside, article {
+        display: inline-block;
+        }
+
