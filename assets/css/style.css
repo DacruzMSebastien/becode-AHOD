@@ -1,9 +1,9 @@
 .footer {
   display: block;
-  height: 400px;
+  height:100%;
   width: 100%;
   bottom: 0;
-  background-color: green;
+  background-color: #b5a6ae;
 }
 
 
