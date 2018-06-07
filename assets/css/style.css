@@ -1,0 +1,13 @@
+aside {
+    width: 40vh;
+    height: 50vh;
+    border: 0.2vh solid black;
+}
+
+aside h2 {
+    font-style: 5vh;
+}
+aside li {
+    list-style: none;
+    font-size: 2vh;
+}
