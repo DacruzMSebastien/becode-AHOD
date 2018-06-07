@@ -82,3 +82,11 @@ article {
     text-align: center;
     border-bottom: 3px solid white;
   }
+
+  .img .nom-asbl {
+    display: inline-block;
+  }
+
+  .nom-asbl h1 p{
+    text-align: center;
+  }
